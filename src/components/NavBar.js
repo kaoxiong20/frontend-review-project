@@ -7,6 +7,7 @@ function NavBar() {
       <div class="navbar">
         <NavLink to="home" end>Home</NavLink>
         <NavLink to="about" end>About</NavLink>
+        <NavLink to="Goals" end>Goals</NavLink>
 
       <div class="dropdown">
         <button class="dropbtn">
@@ -14,10 +15,10 @@ function NavBar() {
         </button>
 
         <div class="dropdown-content">
-        <NavLink to="today">Today</NavLink>
-        <NavLink to="pastentries">Past Entries</NavLink>
+        <NavLink to="Test1">Test 1</NavLink>
+        <NavLink to="Test2">Test 2</NavLink>
     </div>
-    
+
       </div>
 </div>
 </>
