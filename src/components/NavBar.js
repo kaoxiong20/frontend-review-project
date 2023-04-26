@@ -12,6 +12,12 @@ function NavBar() {
         <button class="dropbtn">
           Other
         </button>
+
+        <div class="dropdown-content">
+        <NavLink to="today">Today</NavLink>
+        <NavLink to="pastentries">Past Entries</NavLink>
+    </div>
+    
       </div>
 </div>
 </>
