@@ -6,7 +6,8 @@ const Home = () => {
 
   return (
     <>
-    <h1>Hello.</h1></>
+      <button type="submit">Let's Get Started!</button>
+    </>
   );
 }
 
