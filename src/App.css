@@ -9,6 +9,38 @@ body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+/* Header */
+
+header {
+  line-height: 1.5;
+}
+header .profile-image {
+  margin-top: 50px;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 3px solid white;
+  transition: all .5s;
+}
+header .profile-image:hover {
+  transform: scale(1.2) rotate(360deg);
+}
+
+/* end of header */
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: auto;
+  width: 70%;
+}
+
+.content {
+  text-align: center;
+}
+
 /* Navbar */
 .navbar {
   overflow: hidden;

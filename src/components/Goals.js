@@ -4,7 +4,7 @@ import styled from "styled-components";
 function Goals () {
     return (
     <>
-        <div className="main-content">
+        <div className="goals-content">
             <Info>Write about your goals here.</Info>
         </div>
     </>
