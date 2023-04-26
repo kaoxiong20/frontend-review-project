@@ -1,11 +1,22 @@
 import React from "react";
+import styled from "styled-components";
 
 function About() {
     return (
     <>
-      <h1>About Page</h1>
+        <div className="main-content">
+            <Info>Write about your project here.</Info>
+        </div>
     </>
     );
 }
 
 export default About;
+
+const Info = styled.p`
+    font-size: 15px;
+    padding: 20px 30px 20px 30px;
+    text-align: center;
+    margin: auto;
+    width: 400px;
+`
