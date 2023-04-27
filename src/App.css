@@ -114,3 +114,13 @@ header .profile-image:hover {
   display: block;
 }
 /* End of NavBar */
+
+.card {
+  margin: auto;
+  padding: 20px 40px 40px;
+  max-width: 500px;
+  text-align: center;
+  background: #fff;
+  border-bottom: 4px solid #9CA89E;
+  border-radius: 6px;
+}

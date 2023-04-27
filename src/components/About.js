@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import AboutCard from "./AboutCard";
 
 function About() {
     return (
@@ -7,6 +8,7 @@ function About() {
         <div className="main-content">
             <Info>Write about your project here.</Info>
         </div>
+        <AboutCard />
     </>
     );
 }
