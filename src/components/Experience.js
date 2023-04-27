@@ -1,17 +1,17 @@
 import React from "react";
 import styled from "styled-components";
 
-function Goals () {
+function Experience () {
     return (
     <>
-        <div className="goals-content">
-            <Info>Write about your goals here.</Info>
+        <div className="experience-content">
+            <Info>Write about your experience here.</Info>
         </div>
     </>
     );
 }
 
-export default Goals;
+export default Experience;
 
 const Info = styled.p`
     font-size: 15px;

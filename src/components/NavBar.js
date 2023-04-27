@@ -7,7 +7,7 @@ function NavBar() {
       <div class="navbar">
         <NavLink to="home" end>Home</NavLink>
         <NavLink to="about" end>About</NavLink>
-        <NavLink to="goals" end>Goals</NavLink>
+        <NavLink to="experience" end>Experience</NavLink>
 
       <div class="dropdown">
         <button class="dropbtn">
