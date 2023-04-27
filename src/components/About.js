@@ -21,4 +21,5 @@ const Info = styled.p`
     text-align: center;
     margin: auto;
     width: 400px;
+    font-family: 'Merriweather', serif;
 `

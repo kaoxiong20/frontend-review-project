@@ -22,8 +22,10 @@ const HomeHeader = styled.h1`
   text-align: center;
   margin: auto;
   width: 400px;
+  font-family: 'Merriweather', serif;
 `
 
 const AboutMe = styled.p`
   font-size: 13px;
+  font-family: 'Merriweather', serif;
 `

@@ -15,7 +15,6 @@ For this project you will build a portfolio website that showcases your projects
 
 - Mapping Data: Use mapping to display the projects on the DOM. Map through the array of project objects and display them as cards on the projects page. Each card should display the project title, image, and description. When a user clicks on a card, they should be taken to the project details page. (You can creat mock data in a file for this)
 
-
 - Documentation: Document the project in a README file that includes the technology stack, features, and an overview of what you learned.
 
 - Code Quality: Write clean, readable, and maintainable code. Follow best practices for coding style, formatting, and organization.
