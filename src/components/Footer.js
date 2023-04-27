@@ -4,7 +4,7 @@ import styled from "styled-components";
 function Footer () {
     return (
         <>
-        <Copyright>Copyright 2023, Kao Xiong</Copyright>
+        <Copyright>Copyright 2023 | Kao Xiong</Copyright>
         </>
     )
 };

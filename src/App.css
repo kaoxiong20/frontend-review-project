@@ -54,7 +54,7 @@ header .profile-image:hover {
 .navbar a {
   float: left;
   font-family: 'Unica One';
-  font-size: 16px;
+  font-size: 20px;
   color: #fff;
   text-align: center;
   padding: 18px 30px;
@@ -69,7 +69,7 @@ header .profile-image:hover {
 
 /* Dropdown button */
 .dropdown .dropbtn {
-  font-size: 16px;
+  font-size: 20px;
   border: none;
   outline: none;
   color: #fff;
@@ -127,8 +127,8 @@ header .profile-image:hover {
   font-family: 'Merriweather', serif;
 }
 
-.button {
-  display: inline-block;
+/* if I add .button or button it triggers the nav button */
+.learnbtn {
   background-color: #9CA89E;
   padding: 8px;
   width: 300px;

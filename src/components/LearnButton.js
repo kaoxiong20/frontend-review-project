@@ -6,8 +6,10 @@ function LearnButton () {
     }
 
     return (
-      <button onClick={save}>Click Here To See What I've Learned!</button>
-    );
-}
+      <div class="learnbtn">
+        <button onClick={save}>Click Here To See What I've Learned!</button>
+      </div>
+    )
+};
 
 export default LearnButton;

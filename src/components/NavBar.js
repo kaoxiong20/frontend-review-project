@@ -18,11 +18,10 @@ function NavBar() {
         <NavLink to="test1">Test 1</NavLink>
         <NavLink to="test2">Test 2</NavLink>
     </div>
-
-      </div>
+  </div>
 </div>
 </>
-    )
-}
+  )
+};
 
 export default NavBar;
