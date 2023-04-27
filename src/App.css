@@ -4,7 +4,7 @@
 
 body {
   padding-top: 20px;
-  padding-bottom: 50px;
+  padding-bottom: 20px;
   background-color: #eceae7;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -43,6 +43,7 @@ header .profile-image:hover {
 
 /* Navbar */
 .navbar {
+  width: 100%;
   overflow: hidden;
   background-color: #000;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -83,7 +84,7 @@ header .profile-image:hover {
   color: #000;
 }
 
-/* Dropdown content (hidden by default) */
+/* Dropdown content */
 .dropdown-content {
   display: none;
   position: absolute;
@@ -103,7 +104,7 @@ header .profile-image:hover {
   text-align: left;
 }
 
-/* Add a grey background color to dropdown links on hover */
+/* Add a brown background color to dropdown links on hover */
 .dropdown-content a:hover {
   background-color: #A47551;
 }

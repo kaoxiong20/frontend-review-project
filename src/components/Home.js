@@ -1,14 +1,15 @@
 import React from 'react';
 import styled from 'styled-components';
+import LearnButton from './LearnButton';
 
 const Home = () => {
   return (
     <>
       <HomeHeader>Kao's Final Project</HomeHeader>
       <center>
-        <AboutMe>My journey with Hack the Gap's Full Stack Foundations cohort.</AboutMe>
+        <AboutMe>My journey with Hack the Gap's Full Stack Development cohort.</AboutMe>
         <br/>
-        <button type="submit">Let's See What I've Learned!</button>
+        <LearnButton />
       </center>
     </>
   );
