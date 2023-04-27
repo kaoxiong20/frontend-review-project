@@ -1,4 +1,5 @@
 import React from 'react';
+import styled from 'styled-components';
 
 function LearnButton () {
     const save = () => {
@@ -7,9 +8,13 @@ function LearnButton () {
 
     return (
       <div class="learnbtn">
-        <button onClick={save}>Click Here To See What I've Learned!</button>
+        <LearnBtn onClick={save}>Click Here To See What I've Learned!</LearnBtn>
       </div>
     )
 };
 
 export default LearnButton;
+
+const LearnBtn = styled.button`
+  font-size: 
+`
