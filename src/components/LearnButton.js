@@ -16,5 +16,11 @@ function LearnButton () {
 export default LearnButton;
 
 const LearnBtn = styled.button`
-  font-size: 
+  background-color: #9CA89E;
+  padding: 8px;
+  width: 300px;
+  color: #ffffff;
+  text-align: center;
+  border-radius: 6px;
+  font-family: 'Merriweather', serif;
 `

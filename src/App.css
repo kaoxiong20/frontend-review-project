@@ -127,17 +127,6 @@ header .profile-image:hover {
   font-family: 'Merriweather', serif;
 }
 
-/* if I add .button or button it triggers the nav button */
-.learnbtn {
-  background-color: #9CA89E;
-  padding: 8px;
-  width: 300px;
-  color: #ffffff;
-  text-align: center;
-  border-radius: 6px;
-  font-family: 'Merriweather', serif;
-}
-
 .material-symbols-outlined {
   font-variation-settings:
   'FILL' 0,
