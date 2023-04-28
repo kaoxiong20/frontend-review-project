@@ -16,12 +16,12 @@ function LearnButton () {
 export default LearnButton;
 
 const LearnBtn = styled.button`
-  background-color: #9CA89E;
   padding: 10px;
-  width: 300px;
-  color: #000000;
-  item-align: center;
+  text-align: center;
+  background: #ffffff;
+  border-bottom: 3px solid #9CA89E;
   border-radius: 6px;
   font-family: 'Merriweather', serif;
   margin: 10px;
+  item-align: center;
 `
