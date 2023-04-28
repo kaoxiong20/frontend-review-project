@@ -26,7 +26,7 @@ const Type = styled.p`
 const StyledDiv = styled.div`
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
-    padding: 10px;
-    margin-bottom: 15px;
+    padding: 20px 0px 20px 0px;
+    margin-bottom: 20px;
     background-color: #9CA89E;
 `
