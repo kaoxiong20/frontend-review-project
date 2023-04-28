@@ -1,16 +1,19 @@
 import React from 'react';
 import styled from 'styled-components';
 import LearnButton from './LearnButton';
+import Header from './Header';
 
 const Home = () => {
   return (
     <>
-      <HomeHeader>Kao's Final Project</HomeHeader>
-      <center>
-        <AboutMe>My journey with Hack the Gap's Full Stack Development cohort.</AboutMe>
-        <br/>
+      <Header />
+      <HomeHeader>Kao's Portfolio</HomeHeader>
+      <HomeDiv>
+        <AboutMe>Welcome to Kao's Portfolio. On this webpage I will display
+          the projects I've worked on in my time with Hack the Gap's Full
+          Stack Development cohort.</AboutMe>
         <LearnButton />
-      </center>
+      </HomeDiv>
     </>
   );
 }
@@ -28,4 +31,10 @@ const HomeHeader = styled.h1`
 const AboutMe = styled.p`
   font-size: 13px;
   font-family: 'Merriweather', serif;
+`
+
+const HomeDiv = styled.div`
+  text-align: center;
+  max-width: 450px;
+  margin: auto;
 `

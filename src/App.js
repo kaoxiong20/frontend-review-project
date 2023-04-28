@@ -8,18 +8,20 @@ import About from './components/About';
 import Experience from './components/Experience';
 import Header from './components/Header';
 import Footer from './components/Footer';
+import Projects from './components/Projects';
 
 function App() {
   return (
     <>
       <NavBar/>
-      <Header />
       <Routes>
           <Route path="home" element={<Home />} />
           <Route path="about" element={<About />} />
           <Route path="experience" element={<Experience />} />
       </Routes>
       <Footer />
+
+      <Projects />
       </>
   );
 }

@@ -11,12 +11,14 @@ function NavBar() {
 
       <div class="dropdown">
         <button class="dropbtn">
-          Other
+          Projects
         </button>
 
         <div class="dropdown-content">
-        <NavLink to="test1">Test 1</NavLink>
-        <NavLink to="test2">Test 2</NavLink>
+        <NavLink to="djdaysproject">DJ Days Project</NavLink>
+        <NavLink to="restaurantproject">Restaurant Project</NavLink>
+        <NavLink to="apiproject">API Project</NavLink>
+        <NavLink to="moodtrackerproject">Mood Tracker Project</NavLink>
     </div>
   </div>
 </div>

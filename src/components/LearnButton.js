@@ -19,8 +19,8 @@ const LearnBtn = styled.button`
   background-color: #9CA89E;
   padding: 8px;
   width: 300px;
-  color: #ffffff;
-  text-align: center;
+  color: #000000;
+  item-align: center;
   border-radius: 6px;
   font-family: 'Merriweather', serif;
 `
