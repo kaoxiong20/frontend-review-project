@@ -30,5 +30,6 @@ function ProjectsCard() {
 export default ProjectsCard;
 
 const ProjectsDiv = styled.div`
-  text-align: center;
+  padding: 40px;
+  align-items: center;
 `
