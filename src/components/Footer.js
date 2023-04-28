@@ -14,5 +14,6 @@ export default Footer;
 const Copyright = styled.p`
     text-align: center;
     font-size: 12px;
+    padding-top: 200px;
     font-family: 'Merriweather', serif;
 `

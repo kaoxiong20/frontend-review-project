@@ -15,12 +15,14 @@ const ProjectListing = (props) => {
 export default ProjectListing;
 
 const Name = styled.p`
-    background-color: #B2A6A6;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-family: 'Unica One';
 `
 
 const Type = styled.p`
-background-color: #F0E9E9;
-`
+    font-size: 15px;
+    font-family: 'Merriweather', serif;`
 
 const StyledDiv = styled.div`
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
@@ -28,5 +30,5 @@ const StyledDiv = styled.div`
     width: 40%;
     padding: 10px;
     margin-bottom: 15px;
-    background-color: #CFCFCF;
+    background-color: #9CA89E;
 `

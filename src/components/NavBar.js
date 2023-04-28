@@ -8,10 +8,11 @@ function NavBar() {
         <NavLink to="home" end>Home</NavLink>
         <NavLink to="about" end>About</NavLink>
         <NavLink to="experience" end>Experience</NavLink>
+        <NavLink to="projects" end>Projects</NavLink>
 
       <div class="dropdown">
         <button class="dropbtn">
-          Projects
+          Other
         </button>
 
         <div class="dropdown-content">

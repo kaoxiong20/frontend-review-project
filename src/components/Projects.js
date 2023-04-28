@@ -1,33 +1,10 @@
-import ProjectListing from './ProjectListing';
-import ProjectMessage from './ProjectMessage';
-import Header from './Header';
+import React from "react";
+import ProjectsCard from "./ProjectsCard";
 
-function Projects() {
-  return (
-    <>
-    <Header HeaderContent="My Projects"/>
-    <ProjectMessage MessageContent="Do you have any advice?"/>
-    <ProjectListing
-        ProjectName="DJ Days Project"
-        ProjectType="Mapping"
-      />
-
-    <ProjectListing
-      ProjectName="Restaurant Project"
-      ProjectType="Mapping"
-    />
-
-    <ProjectListing
-      ProjectName="API Project"
-      ProjectType="Mapping"
-    />
-
-    <ProjectListing
-      ProjectName="Mood Tracker Project"
-      ProjectType="Mapping"
-    />
-    </>
-  );
-}
+function Projects () {
+    return(
+        <ProjectsCard />
+    )
+};
 
 export default Projects;
