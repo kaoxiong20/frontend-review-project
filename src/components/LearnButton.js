@@ -19,7 +19,8 @@ const LearnBtn = styled.button`
   padding: 10px;
   text-align: center;
   background: #ffffff;
-  border-bottom: 3px solid #9CA89E;
+  box-shadow: 7px 7px #B9B7BD;
+  border-bottom: 2px solid #9CA89E;
   border-radius: 6px;
   font-family: 'Merriweather', serif;
   margin: 10px;
