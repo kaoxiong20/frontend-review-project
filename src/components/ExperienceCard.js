@@ -8,7 +8,7 @@ function ExperienceCard() {
     <ExperienceListing
         ExperienceName="University of Minnesota"
         ExperienceDate="2012 - 2017"
-        ExperienceType="Schooling"
+        ExperienceType="Education"
       />
 
     <ExperienceListing
@@ -32,5 +32,5 @@ const ExperienceDiv = styled.div`
   padding: 70px;
   align-items: center;
   text-align: center;
-  float: center;
+  item-align: center;
 `

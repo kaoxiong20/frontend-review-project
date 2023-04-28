@@ -34,8 +34,8 @@ const Date = styled.p`
 const StyledDiv = styled.div`
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
-    width: 40%;
     padding: 10px;
     margin: 15px;
     background-color: #9CA89E;
+    item-align: center;
 `

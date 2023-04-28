@@ -23,7 +23,7 @@ const Home = () => {
 export default Home;
 
 const HomeHeader = styled.h1`
-  font-size: 40px;
+  font-size: 45px;
   text-align: center;
   font-family: 'Unica One';
 `
