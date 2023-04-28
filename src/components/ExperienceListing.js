@@ -5,9 +5,9 @@ const ExperienceListing = (props) => {
     return (
         <>
         <StyledDiv>
-        <Name>{props.ExperienceName}</Name>
-        <Type>{props.ExperienceType}</Type>
-        <Date>{props.ExperienceDate}</Date>
+            <Name>{props.ExperienceName}</Name>
+            <Type>{props.ExperienceType}</Type>
+            <Date>{props.ExperienceDate}</Date>
         </StyledDiv>
         </>
     );
@@ -36,6 +36,6 @@ const StyledDiv = styled.div`
     transition: 0.3s;
     width: 40%;
     padding: 10px;
-    margin-bottom: 15px;
+    margin: 15px;
     background-color: #9CA89E;
 `

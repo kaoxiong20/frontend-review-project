@@ -5,7 +5,7 @@ function AboutCard () {
     return (
         <About>
             <div class="card">
-                <h2>Title of Card</h2>
+                <AboutTitle>Title of Card</AboutTitle>
                 <AboutP>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                     sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                     Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
@@ -24,6 +24,10 @@ const About = styled.div`
     align-items: center;
     font-size: 18px;
     font-family: 'Merriweather', serif;
+`
+
+const AboutTitle = styled.h1`
+    font-family: 'Unica One';
 `
 
 const AboutP = styled.p`

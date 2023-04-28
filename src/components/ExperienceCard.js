@@ -20,7 +20,7 @@ function ExperienceCard() {
     <ExperienceListing
         ExperienceName="Job 2"
         ExperienceDate="2015 - 2017"
-        ExperienceType="Exmployment"
+        ExperienceType="Employment"
       />
     </ExperienceDiv>
   );

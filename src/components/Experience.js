@@ -7,9 +7,9 @@ import ExperienceListing from "./ExperienceListing";
 function Experience () {
     return (
     <>
+        <ResumeTitle>Kao Xiong</ResumeTitle>
         <div className="experience-content">
             <Header />
-            <ResumeTitle>Kao Xiong</ResumeTitle>
             <Info>(651)123-4567 | kaoxiong@fakeemail.com | She/Hers/Her</Info>
             <ExperienceCard />
         </div>
@@ -27,6 +27,8 @@ const Info = styled.p`
 
 const ResumeTitle = styled.h1`
     text-align: center;
-    font-size: 40px;
+    font-size: 50px;
     font-family: 'Unica One';
+    margin-top: 40px;
+    margin-bottom: 0px;
 `

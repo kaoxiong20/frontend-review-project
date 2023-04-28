@@ -17,7 +17,7 @@ export default About;
 
 const Info = styled.p`
     font-size: 15px;
-    padding: 20px 30px 20px 30px;
+    padding: 60px;
     text-align: center;
     margin: auto;
     width: 400px;

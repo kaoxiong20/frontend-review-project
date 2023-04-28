@@ -17,10 +17,11 @@ export default LearnButton;
 
 const LearnBtn = styled.button`
   background-color: #9CA89E;
-  padding: 8px;
+  padding: 10px;
   width: 300px;
   color: #000000;
   item-align: center;
   border-radius: 6px;
   font-family: 'Merriweather', serif;
+  margin: 10px;
 `

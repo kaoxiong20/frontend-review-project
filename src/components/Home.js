@@ -9,9 +9,11 @@ const Home = () => {
       <Header />
       <HomeHeader>Kao's Portfolio</HomeHeader>
       <HomeDiv>
-        <AboutMe>Welcome to Kao's Portfolio. On this webpage I will display
-          the projects I've worked on in my time with Hack the Gap's Full
-          Stack Development cohort.</AboutMe>
+        <AboutMe>Welcome to Kao's Portfolio! On this webpage I will display
+          the projects I've worked on during my time with Hack the Gap's
+          Full Stack Development cohort.
+          <br/>
+          Enjoy!</AboutMe>
         <LearnButton />
       </HomeDiv>
     </>
@@ -21,11 +23,9 @@ const Home = () => {
 export default Home;
 
 const HomeHeader = styled.h1`
-  font-size: 30px;
+  font-size: 40px;
   text-align: center;
-  margin: auto;
-  width: 400px;
-  font-family: 'Merriweather', serif;
+  font-family: 'Unica One';
 `
 
 const AboutMe = styled.p`
@@ -35,6 +35,6 @@ const AboutMe = styled.p`
 
 const HomeDiv = styled.div`
   text-align: center;
-  max-width: 450px;
+  max-width: 500px;
   margin: auto;
 `

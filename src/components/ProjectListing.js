@@ -5,8 +5,8 @@ const ProjectListing = (props) => {
     return (
         <>
         <StyledDiv>
-        <Name>{props.ProjectName}</Name>
-        <Type>{props.ProjectType}</Type>
+            <Name>{props.ProjectName}</Name>
+            <Type>{props.ProjectType}</Type>
         </StyledDiv>
         </>
     );
