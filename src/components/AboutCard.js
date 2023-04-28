@@ -3,18 +3,18 @@ import styled from "styled-components";
 
 function AboutCard () {
     return (
-        <About>
             <div class="card">
-                <AboutTitle>Title of Card</AboutTitle>
-                <AboutP>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                    nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-                    reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                    pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                    culpa qui officia deserunt mollit anim id est laborum.</AboutP>
+                <AboutTitle>How Did I Discover Hack the Gap?</AboutTitle>
+                <AboutP>
+                    I first learned about Hack the Gap's opportunity
+                    in a time where I was beginning to search for a career change.
+                    This was in the Fall of 2022. I was made aware of this
+                    opportunity through a community group that I am a part
+                    of on Facebook, called LOCUS. It sounded like a great opportunity
+                    to familiarize and introduce myself into the coding world so I
+                    decided to grasp onto the opportunity.
+                </AboutP>
             </div>
-        </About>
     )
 };
 

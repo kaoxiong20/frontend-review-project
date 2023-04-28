@@ -6,7 +6,8 @@ function About() {
     return (
     <>
         <div className="main-content">
-            <Info>Write about your project here.</Info>
+            <Info>Lorem ipsum ... Might not need this, might delete later.
+            </Info>
         </div>
         <AboutCard />
     </>
