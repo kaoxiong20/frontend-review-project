@@ -16,10 +16,8 @@ function NavBar() {
         </button>
 
         <div class="dropdown-content">
-        <NavLink to="djdaysproject">DJ Days Project</NavLink>
-        <NavLink to="restaurantproject">Restaurant Project</NavLink>
-        <NavLink to="apiproject">API Project</NavLink>
-        <NavLink to="moodtrackerproject">Mood Tracker Project</NavLink>
+        <NavLink to="othercontent1">Other Content 1</NavLink>
+        <NavLink to="othercontent2">Other Content 2</NavLink>
     </div>
   </div>
 </div>
