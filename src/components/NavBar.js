@@ -1,5 +1,6 @@
 import React from "react";
 import { NavLink } from 'react-router-dom';
+import SideBar from "./SideBar";
 
 function NavBar() {
   return (
@@ -19,19 +20,8 @@ function NavBar() {
           <NavLink to="othercontent1">Other Content 1</NavLink>
           <NavLink to="othercontent2">Other Content 2</NavLink>
         </div>
-      </div>
-
-{/* side bar */}
-        <div class="sidepanel">
-        <button class="sidebtn">
-          &#9776;
-        </button>
-
-        <div class="sidebtn-content">
-        <NavLink to="sidecontent1">Side Content 1</NavLink>
-        <NavLink to="sidecontent2">Side Content 2</NavLink>
         </div>
-      </div>
+        <SideBar />
     </div>
   </>
   )
