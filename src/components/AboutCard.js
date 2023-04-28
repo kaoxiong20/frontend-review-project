@@ -4,7 +4,7 @@ import styled from "styled-components";
 function AboutCard () {
     return (
             <div class="card">
-                <AboutTitle>How Did I Discover Hack the Gap?</AboutTitle>
+                <AboutTitle>How Did I Learn About Hack the Gap?</AboutTitle>
                 <AboutP>
                     I first learned about Hack the Gap's opportunity
                     in a time where I was beginning to search for a career change.

@@ -9,10 +9,32 @@ body {
   font-family: 'Merriweather', serif;
 }
 
+.card {
+  margin: auto;
+  padding: 20px 40px 40px;
+  max-width: 500px;
+  text-align: center;
+  background: #fff;
+  border-bottom: 4px solid #9CA89E;
+  border-radius: 6px;
+  font-family: 'Merriweather', serif;
+}
+
+/* .material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+} */
+
+/* .menu-icon {
+  color: #000;
+} */
+
 /* Beginning of header */
 header {
   text-align: center;
-  /* background: url('./images/mountains.jpg') no-repeat top center ; */
   padding-top: 20px;
   padding-bottom: 40px;
 }
@@ -118,25 +140,75 @@ header .profile-image:hover {
 }
 /* End of NavBar */
 
-.card {
-  margin: auto;
-  padding: 20px 40px 40px;
-  max-width: 500px;
-  text-align: center;
-  background: #fff;
-  border-bottom: 4px solid #9CA89E;
-  border-radius: 6px;
-  font-family: 'Merriweather', serif;
-}
 
-.material-symbols-outlined {
-  font-variation-settings:
-  'FILL' 0,
-  'wght' 400,
-  'GRAD' 0,
-  'opsz' 48
-}
 
-.menu-icon {
+
+
+/* !!! Testing Sidebar !!! */
+/* !!! Testing Sidebar !!! */
+/* !!! Testing Sidebar !!! */
+/* !!! Testing Sidebar !!! */
+/* !!! Testing Sidebar !!! */
+.sidepanel a {
+  float: right;
+  font-family: 'Unica One';
+  font-size: 20px;
   color: #fff;
+  text-align: center;
+  padding: 18px 30px;
+  text-decoration: none;
+}
+
+/* The sidepanel container */
+.sidepanel {
+  float: right;
+  overflow: hidden;
+}
+
+/* sidepanel button */
+.sidepanel .sidebtn {
+  font-size: 20px;
+  border: none;
+  outline: none;
+  color: #fff;
+  padding: 18px 28px;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+/* Add a background color to sidepanel links on hover */
+.sidepanel:hover .sidebtn {
+  background-color: #A47551;
+  color: #fff;
+}
+
+/* Sidepanel content */
+.side-content {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the sidepanel */
+.sidebtn-content a {
+  float: none;
+  color: #fff;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a brown background color to dropdown links on hover */
+.sidebtn-content a:hover {
+  background-color: #A47551;
+}
+
+/* Show the dropdown menu on hover */
+.sidepanel:hover .sidebtn-content {
+  display: block;
 }

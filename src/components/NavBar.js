@@ -16,12 +16,24 @@ function NavBar() {
         </button>
 
         <div class="dropdown-content">
-        <NavLink to="othercontent1">Other Content 1</NavLink>
-        <NavLink to="othercontent2">Other Content 2</NavLink>
+          <NavLink to="othercontent1">Other Content 1</NavLink>
+          <NavLink to="othercontent2">Other Content 2</NavLink>
+        </div>
+      </div>
+
+{/* side bar */}
+        <div class="sidepanel">
+        <button class="sidebtn">
+          &#9776;
+        </button>
+
+        <div class="sidebtn-content">
+        <NavLink to="sidecontent1">Side Content 1</NavLink>
+        <NavLink to="sidecontent2">Side Content 2</NavLink>
+        </div>
+      </div>
     </div>
-  </div>
-</div>
-</>
+  </>
   )
 };
 
