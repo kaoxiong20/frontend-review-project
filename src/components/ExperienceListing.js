@@ -5,8 +5,9 @@ const ExperienceListing = (props) => {
     return (
         <>
         <StyledDiv>
-        <Name>{props.ProjectName}</Name>
-        <Type>{props.ProjectType}</Type>
+        <Name>{props.ExperienceName}</Name>
+        <Type>{props.ExperienceType}</Type>
+        <Date>{props.ExperienceDate}</Date>
         </StyledDiv>
         </>
     );
@@ -22,7 +23,13 @@ const Name = styled.p`
 
 const Type = styled.p`
     font-size: 15px;
-    font-family: 'Merriweather', serif;`
+    font-family: 'Merriweather', serif;
+`
+
+const Date = styled.p`
+    font-size: 15px;
+    font-family: 'Merriweather', serif;
+`
 
 const StyledDiv = styled.div`
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);

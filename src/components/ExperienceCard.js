@@ -1,24 +1,25 @@
 import React from 'react';
 import styled from 'styled-components';
+import ExperienceListing from './ExperienceListing';
 
 function ExperienceCard() {
   return (
     <ExperienceDiv>
     <ExperienceListing
         ExperienceName="University of Minnesota"
-        ExperienceDate="Schooling"
+        ExperienceDate="2012 - 2017"
         ExperienceType="Schooling"
       />
 
     <ExperienceListing
-        ExperienceName="DJ Days Project"
-        ExperienceDate="Mapping"
+        ExperienceName="Job 1"
+        ExperienceDate="2012 - 2014"
         ExperienceType="Employment"
       />
 
     <ExperienceListing
-        ExperienceName="DJ Days Project"
-        ExperienceDate="Mapping"
+        ExperienceName="Job 2"
+        ExperienceDate="2015 - 2017"
         ExperienceType="Exmployment"
       />
     </ExperienceDiv>

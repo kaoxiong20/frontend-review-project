@@ -1,6 +1,8 @@
 import React from "react";
 import styled from "styled-components";
+import ExperienceCard from "./ExperienceCard";
 import Header from "./Header";
+import ExperienceListing from "./ExperienceListing";
 
 function Experience () {
     return (
@@ -9,6 +11,7 @@ function Experience () {
             <Header />
             <ResumeTitle>Kao Xiong</ResumeTitle>
             <Info>(651)123-4567 | kaoxiong@fakeemail.com | She/Hers/Her</Info>
+            <ExperienceCard />
         </div>
     </>
     );
