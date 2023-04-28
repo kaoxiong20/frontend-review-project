@@ -1,3 +1,4 @@
+import React from 'react';
 import ProjectListing from './ProjectListing';
 import styled from 'styled-components';
 
@@ -30,6 +31,8 @@ function ProjectsCard() {
 export default ProjectsCard;
 
 const ProjectsDiv = styled.div`
-  padding: 40px;
+  padding: 70px;
   align-items: center;
+  text-align: center;
+  float: center;
 `
