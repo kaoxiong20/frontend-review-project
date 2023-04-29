@@ -1,48 +1,33 @@
 import React from 'react';
-import ProjectListing from './ProjectListing';
 import styled from 'styled-components';
 
-function ProjectsCard() {
+const ProjectsCard = ({img, name, description}) => {
   return (
-    <>
     <ProjectsDiv>
-    <ProjectListing
-        ProjectName="DJ Days Project"
-        ProjectDescription="Lorem ipsum dolor sit amet,
-        consectetur adipiscing elit, sed do eiusmod tempor
-        incididunt ut labore et dolore magna aliqua."
-      />
-
-    <ProjectListing
-      ProjectName="Restaurant Project"
-      ProjectDescription="LLorem ipsum dolor sit amet,
-      consectetur adipiscing elit, sed do eiusmod tempor
-      incididunt ut labore et dolore magna aliqua."
-    />
-
-    <ProjectListing
-      ProjectName="API Project"
-      ProjectDescription="Lorem ipsum dolor sit amet,
-      consectetur adipiscing elit, sed do eiusmod tempor
-      incididunt ut labore et dolore magna aliqua."
-    />
-
-    <ProjectListing
-      ProjectName="Mood Tracker Project"
-      ProjectDescription="Lorem ipsum dolor sit amet,
-      consectetur adipiscing elit, sed do eiusmod tempor
-      incididunt ut labore et dolore magna aliqua."
-    />
+      <img src={img} alt={name}/>
+      <ProjectName>{name}</ProjectName>
+      <ProjectDescription>{description}</ProjectDescription>
     </ProjectsDiv>
-    </>
   );
 }
+
 
 export default ProjectsCard;
 
 const ProjectsDiv = styled.div`
-  padding: 70px;
-  align-items: center;
-  text-align: center;
   float: center;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  padding: 20px 0px 20px 0px;
+  margin-bottom: 20px;
+  background-color: #9CA89E;
 `
+
+const ProjectName = styled.p`
+    font-size: 30px;
+    font-family: 'Unica One';
+`
+
+const ProjectDescription = styled.p`
+    font-size: 15px;
+    font-family: 'Merriweather', serif;`

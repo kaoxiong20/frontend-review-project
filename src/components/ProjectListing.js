@@ -1,33 +1,27 @@
 import React from 'react';
-import styled from 'styled-components';
+import projects from './projectdata';
 import ProjectsCard from './ProjectsCard';
+import styled from 'styled-components';
 
-const ProjectListing = (props) => {
+function ProjectListing() {
     return (
-        <>
-        <StyledDiv>
-            <Name>{props.ProjectName}</Name>
-            <Description>{props.ProjectDescription}</Description>
-        </StyledDiv>
-        </>
+      <StyledDiv>
+        {projects.map(projects =>
+          <ProjectsCard 
+            {...projects}
+            key={projects.id}
+          />
+        )}
+      </StyledDiv>
     );
-}
+  }
 
 export default ProjectListing;
 
-const Name = styled.p`
-    font-size: 25px;
-    font-family: 'Unica One';
-`
-
-const Description = styled.p`
-    font-size: 15px;
-    font-family: 'Merriweather', serif;`
-
 const StyledDiv = styled.div`
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    transition: 0.3s;
-    padding: 20px 0px 20px 0px;
-    margin-bottom: 20px;
-    background-color: #9CA89E;
+    max-width: 800px;
+    text-align: center;
+    float: center;
+    margin: auto;
+    margin-top: 40px;
 `

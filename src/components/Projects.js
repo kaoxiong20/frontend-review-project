@@ -7,7 +7,7 @@ function Projects () {
     return(
         <>
             <ProjectsTitle>My Projects</ProjectsTitle>
-            <ProjectsCard />
+            <ProjectListing />
         </>
     )
 };

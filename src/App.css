@@ -1,5 +1,8 @@
 .App {
-  text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100px;
 }
 
 body {
@@ -167,11 +170,12 @@ header .profile-image:hover {
 
 /* sidepanel button - hamburger */
 .sidepanel .sidebtn {
-  font-size: 20px;
+  font-size: 25px;
   border: none;
   outline: none;
   color: #fff;
-  padding: 18px 60px;
+  float: left;
+  padding: 12px 70px;
   background-color: inherit;
   font-family: inherit; /* Important for vertical align on mobile phones */
   margin: 0; /* Important for vertical align on mobile phones */
@@ -186,12 +190,10 @@ header .profile-image:hover {
 /* Sidepanel content */
 .sidebtn-content {
   display: none;
-  position: fixed;
+  /* position: fixed; */
   background-color: #fff;
   min-width: 300px;
   float: inherit;
-  /* box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); */
-  /* z-index: 5; */
 }
 
 /* Links inside the sidepanel */
