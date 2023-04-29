@@ -1,6 +1,7 @@
 import React from "react";
 import ProjectsCard from "./ProjectsCard";
 import styled from "styled-components";
+import ProjectListing from "./ProjectListing";
 
 function Projects () {
     return(

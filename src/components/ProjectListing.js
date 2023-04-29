@@ -1,12 +1,13 @@
 import React from 'react';
 import styled from 'styled-components';
+import ProjectsCard from './ProjectsCard';
 
 const ProjectListing = (props) => {
     return (
         <>
         <StyledDiv>
             <Name>{props.ProjectName}</Name>
-            <Type>{props.ProjectType}</Type>
+            <Description>{props.ProjectDescription}</Description>
         </StyledDiv>
         </>
     );
@@ -19,7 +20,7 @@ const Name = styled.p`
     font-family: 'Unica One';
 `
 
-const Type = styled.p`
+const Description = styled.p`
     font-size: 15px;
     font-family: 'Merriweather', serif;`
 

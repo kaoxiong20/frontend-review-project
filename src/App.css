@@ -180,7 +180,7 @@ header .profile-image:hover {
 /* Add a background color to sidebar links on hover */
 .sidepanel a:hover, .sidepanel:hover .sidebtn {
   background-color: #A47551;
-  color: #fff;
+  color: #000;
 }
 
 /* Sidepanel content */

@@ -4,27 +4,37 @@ import styled from 'styled-components';
 
 function ProjectsCard() {
   return (
+    <>
     <ProjectsDiv>
     <ProjectListing
         ProjectName="DJ Days Project"
-        ProjectType="Mapping"
+        ProjectDescription="Lorem ipsum dolor sit amet,
+        consectetur adipiscing elit, sed do eiusmod tempor
+        incididunt ut labore et dolore magna aliqua."
       />
 
     <ProjectListing
       ProjectName="Restaurant Project"
-      ProjectType="Forgot"
+      ProjectDescription="LLorem ipsum dolor sit amet,
+      consectetur adipiscing elit, sed do eiusmod tempor
+      incididunt ut labore et dolore magna aliqua."
     />
 
     <ProjectListing
       ProjectName="API Project"
-      ProjectType="API"
+      ProjectDescription="Lorem ipsum dolor sit amet,
+      consectetur adipiscing elit, sed do eiusmod tempor
+      incididunt ut labore et dolore magna aliqua."
     />
 
     <ProjectListing
       ProjectName="Mood Tracker Project"
-      ProjectType="Forgot"
+      ProjectDescription="Lorem ipsum dolor sit amet,
+      consectetur adipiscing elit, sed do eiusmod tempor
+      incididunt ut labore et dolore magna aliqua."
     />
     </ProjectsDiv>
+    </>
   );
 }
 
