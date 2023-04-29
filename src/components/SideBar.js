@@ -12,6 +12,7 @@ function Sidebar () {
         <div class="sidebtn-content">
         <NavLink to="sidecontent1">Side Content 1</NavLink>
         <NavLink to="sidecontent2">Side Content 2</NavLink>
+        <NavLink to="sidecontent3">Side Content 3</NavLink>
         </div>
       </div>
     </>
